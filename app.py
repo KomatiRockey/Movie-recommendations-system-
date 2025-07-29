@@ -1,6 +1,7 @@
 # app.py
 import streamlit as st
-from movie_recommender import get_recommendations
+from src.movie_recommender import get_recommendations
+
 
 # Title of the web app
 st.title("Movie Genre-Based Recommender")
