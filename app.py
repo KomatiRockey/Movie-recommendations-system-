@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-from src.movie_recommender import get_recommendations
+from movie_recommender import get_recommendations
 
 
 # Title of the web app
