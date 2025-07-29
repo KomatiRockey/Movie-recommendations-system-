@@ -14,3 +14,8 @@ if genre_input:
     st.write(f"Top 5 {genre_input} Movies:")
     for movie in recommendations:
         st.write(movie)
+
+# This section ensures the app binds to the correct address when running in a production environment (like Render)
+if __name__ == "__main__":
+    st.run(host="0.0.0.0", port=8000)
+    
